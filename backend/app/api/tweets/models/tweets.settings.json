@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tweets",
+  "info": {
+    "name": "tweets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
